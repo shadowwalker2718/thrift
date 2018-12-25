@@ -1,6 +1,17 @@
 Apache Thrift
 =============
 
+BUILD
+============
+```
+./bootstrap.sh
+./configure --prefix=/home/henry/evolvability/thrift/install/ --enable-depend --enable-cassert --enable-debug
+make -j 8
+make install
+export PATH=$PATH:/home/henry/evolvability/thrift/install/bin
+```
+
+
 Introduction
 ============
 
